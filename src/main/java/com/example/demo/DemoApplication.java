@@ -11,7 +11,7 @@ public class DemoApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "API Started";
+		return "Azure API Started ";
 	}
 
 	public static void main(String[] args) {
